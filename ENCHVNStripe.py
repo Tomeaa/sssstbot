@@ -73,7 +73,7 @@ def main(message):
 			with open("start.start", "w") as yu:
 				pass
 			for cc in lino:
-				time.sleep(20)
+				time.sleep(15)
 				current_dir = os.getcwd()
 				for filename in os.listdir(current_dir):
 					if filename.endswith(".stop"):
